@@ -143,7 +143,7 @@ var Axes = _dereq_('../geometry/Axes');
      * There are 32 available. See `body.collisionFilter` for more information.
      * @method nextCategory
      * @return {Number} Unique category bitfield
-     */
+    */
     Body.nextCategory = function() {
         Body._nextCategory = Body._nextCategory << 1;
         return Body._nextCategory;
